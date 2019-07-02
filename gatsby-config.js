@@ -1,10 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: `ARANHA`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Agência de publicidade`,
     author: `@aranhaagency`,
   },
   plugins: [
+    `gatsby-plugin-favicon`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -13,12 +14,16 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    `gatsby-plugin-antd`,
+    `gatsby-plugin-i18n`,
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-transition-link`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
+        name: `ARANHA`,
         short_name: `starter`,
         start_url: `/`,
         background_color: `#663399`,
