@@ -33,7 +33,7 @@ module.exports = {
       },
     },
     {
-      pathPrefix: "http://aranha.github.io/web/",
+      pathPrefix: "http://aranhaagency.github.io/web/",
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
