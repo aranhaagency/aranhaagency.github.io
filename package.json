@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "aranha-landingpage",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Aranha and Gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Aranha Agency <aranhaagency@gmail.com>",
   "dependencies": {
     "gatsby": "^2.12.0",
     "gatsby-image": "^2.2.3",
@@ -27,7 +27,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
