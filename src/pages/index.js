@@ -65,7 +65,6 @@ const IndexPage = () => (
           <Link to="/contact/">
             <strong>Vamos tomar um café</strong>
           </Link>{" "}
-          E criarmos juntos?
         </p>
         <a
           href="https://github.com/aranhaagency"
