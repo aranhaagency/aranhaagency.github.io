@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: aranhaagency.github.io
+Token: 91f3e7560c33ed59e0b1ad0d4caaf049f457cd0db604320536bef542610a7378 
