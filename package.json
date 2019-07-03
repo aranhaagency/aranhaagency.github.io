@@ -10,6 +10,7 @@
     "gatsby-plugin-amplitude-analytics": "^1.5.0",
     "gatsby-plugin-antd": "^2.0.2",
     "gatsby-plugin-baidu-analytics": "^2.0.0",
+    "gatsby-plugin-cookiehub": "^1.0.0",
     "gatsby-plugin-favicon": "^3.1.6",
     "gatsby-plugin-google-analytics": "^2.1.1",
     "gatsby-plugin-i18n": "^1.0.1",
@@ -47,7 +48,6 @@
   "scripts": {
     "deploy:github": "npm run build && node ./deploy-github",
     "build": "gatsby build",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",

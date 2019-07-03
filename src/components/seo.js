@@ -78,8 +78,20 @@ function SEO({ description, lang, meta, title }) {
 
 SEO.defaultProps = {
   lang: `en`, 
-  meta: [],
-  description: `ARANHA Agencia de publicidade `,
+  meta: [`london`,
+    `Rio de Janeiro`,
+    `Brasil`,
+    `Advertising`,
+    `Integrated Advertising`,
+    `Networking`,
+    `Advertising Agency`,
+    `Agência de Publicidade`,
+    `ARANHA INC`,
+    `ARANHA LTDA`,
+    `ARANHA LLC`,
+    `ARNHA GHB`
+  ],
+  description: `ARANHA Agência de publicidade`,
 }
 
 SEO.propTypes = {
