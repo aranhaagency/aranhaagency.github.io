@@ -30,10 +30,7 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/favicon.png`, // This path is relative to the root of the site.
-      },
-      {
-        pathPrefix: "http://aranhaagency.github.io/aranhaagency.github.io",
-      },
+      },{ pathPrefix: "http://aranhaagency.github.io/aranhaagency.github.io", },
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
