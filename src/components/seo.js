@@ -37,6 +37,9 @@ function SEO({ description, lang, meta, title }) {
       titleTemplate={`%s | ${site.siteMetadata.title}`}
       meta={[
         {
+          name: 'google-site-verification', content: 'MKRfsXHCgTA_I5JNclOta5Sg_ox6UWgJW8dHVpnbhhI',
+        },
+        {
           name: `description`,
           content: metaDescription,
         },

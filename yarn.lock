@@ -761,7 +761,7 @@
     "@babel/plugin-transform-react-jsx-self" "^7.0.0"
     "@babel/plugin-transform-react-jsx-source" "^7.0.0"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.3.1", "@babel/runtime@^7.4.2", "@babel/runtime@^7.4.5":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.3.1", "@babel/runtime@^7.3.4", "@babel/runtime@^7.4.2", "@babel/runtime@^7.4.5":
   version "7.4.5"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.4.5.tgz#582bb531f5f9dc67d2fcb682979894f75e253f12"
   integrity sha512-TuI4qpWZP6lGOGIuGWtp9sPluqYICmbk8T/1vpSysqJxRPkudh/ofFWyqdcMsDf2s7KvDL4/YHgKyvcS3g9CJQ==
@@ -5728,6 +5728,13 @@ gatsby-page-utils@^0.0.2:
     micromatch "^3.1.10"
     slash "^1.0.0"
 
+gatsby-plugin-amplitude-analytics@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-amplitude-analytics/-/gatsby-plugin-amplitude-analytics-1.5.0.tgz#868a1a410187bcb92e4ca943569b45a4fbea9f78"
+  integrity sha512-dhE5MNs10O7LLai4ShafvaHTMcLBOYjJm3qQPrkNT6KyX7WXpWy3OBzLtArZmdAe6M2SZCYA6tcAj3ORM7hCeg==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+
 gatsby-plugin-antd@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-antd/-/gatsby-plugin-antd-2.0.2.tgz#009c4c3b20c7250adb2721ceddc85da950bd0b2b"
@@ -5735,6 +5742,11 @@ gatsby-plugin-antd@^2.0.2:
   dependencies:
     antd "^3.9.0"
     babel-plugin-import "^1.9.0"
+
+gatsby-plugin-baidu-analytics@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-baidu-analytics/-/gatsby-plugin-baidu-analytics-2.0.0.tgz#92a7007d37428172d9bfae75ac67d1f0c2507e42"
+  integrity sha512-+IHF9PuqI4WYny9C8CcJEUeHExr8ngrF+I9agvQ4/WKG2Drz+VAYmChpIVu26LJxgi73Zir/CMoPLWt7v9k9IQ==
 
 gatsby-plugin-favicon@^3.1.6:
   version "3.1.6"
@@ -5881,6 +5893,20 @@ gatsby-plugin-transition-link@^1.12.4:
     polyfill-array-includes "^1.0.0"
     react-transition-group "^2.5.0"
     requestanimationframe-timer "^1.0.4"
+
+gatsby-plugin-whatshelp@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-whatshelp/-/gatsby-plugin-whatshelp-1.0.0.tgz#c7d0dba7c40492b5981606aa612fc5ae1a984e0b"
+  integrity sha512-pQtzth4r+P6Ju9Wt7O6VAKQHHqRLJ2afwr6DJpS7zalk8l5zGQjzmYcOzCU98imuT/Z/i+eUhn9ophCuQ80PLQ==
+  dependencies:
+    babel-runtime "^6.26.0"
+
+gatsby-plugin-yandex-metrica@^0.1.3-check:
+  version "0.1.3-check"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-yandex-metrica/-/gatsby-plugin-yandex-metrica-0.1.3-check.tgz#3b06c4934633f4cf159d303ece6c5e47ff2e0914"
+  integrity sha512-DOJUxZgMWYn5OuuJaw6JtkTRIDCcqVj0mufSS7y7H6GU6NhR1CiIlgHhiTVOmrGvnKNj1Q38hINPkd5hWTNR3Q==
+  dependencies:
+    "@babel/runtime" "^7.3.4"
 
 gatsby-react-router-scroll@^2.1.0:
   version "2.1.0"
