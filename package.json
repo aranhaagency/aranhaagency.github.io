@@ -1,5 +1,5 @@
 {
-  "name": "aranha-landingpage",
+  "name": "aranhaagency",
   "private": true,
   "description": "Aranha and Gatsby",
   "version": "0.1.0",
@@ -55,9 +55,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/aranhaagency/aranhaagency.githu.io"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/aranhaagency/aranhaagency.githu.io/issues"
   }
 }

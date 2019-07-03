@@ -5,7 +5,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import * as Icon from "../components/icons"
+import SocialConnect from "../components/SocialConnect"
 
 const IndexPage = () => (
   <Layout>
@@ -66,38 +66,7 @@ const IndexPage = () => (
             <strong>Vamos tomar um café</strong>
           </Link>{" "}
         </p>
-        <a
-          href="https://github.com/aranhaagency"
-          target="_blank"
-          rel="noopener noreferrer"
-          title="Github"
-        >
-          <Icon.Github />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/aranha-agency-a15b81185/"
-          target="_blank"
-          rel="noopener noreferrer"
-          title="LinkedIn"
-        >
-          <Icon.Linkedin />
-        </a>
-        <a
-          href="https://twitter.com/aranhaagency"
-          target="_blank"
-          rel="noopener noreferrer"
-          title="Twitter"
-        >
-          <Icon.Twitter />
-        </a>
-        <a
-          href="https://instagram.com/aranhaagency"
-          target="_blank"
-          rel="noopener noreferrer"
-          title="Instagram"
-        >
-          <Icon.Instagram />
-        </a>
+        <SocialConnect />
       </div>
     </section>
   </Layout>

@@ -15,6 +15,15 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-cookiehub`,
+      options: {
+        cookihubId: `643d82f5`,
+        trackingId: `UA-141019633-4`,
+        head: false,
+        anonymize: true,
+      },
+    },
+    {
       resolve: `gatsby-plugin-google-analytics`,
         options: {
           trackingId: "UA-141019633-4",
