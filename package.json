@@ -40,6 +40,7 @@
   ],
   "license": "MIT",
   "scripts": {
+    "deploy:github": "npm run build && node ./deploy-github",
     "build": "gatsby build",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "format": "prettier --write src/**/*.{js,jsx}",
