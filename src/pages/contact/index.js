@@ -1,15 +1,10 @@
-import React from "react";
-import { navigate } from "gatsby-link";
+import React from "react"
+import { navigate } from "gatsby-link"
+import axios from "axios"
 
-import Layout from "../../components/layout";
-import SEO from "../../components/seo";
-import SocialConnect from "../../components/SocialConnect";
-
-function encode(data) {
-  return Object.keys(data)
-    .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-    .join("&");
-}
+import Layout from "../../components/layout"
+import SEO from "../../components/seo"
+import SocialConnect from "../../components/SocialConnect"
 
 class Contact extends React.Component {
   constructor(props) {
@@ -24,18 +19,15 @@ class Contact extends React.Component {
   handleSubmit = e => {
     e.preventDefault();
     const form = e.target;
-    fetch("/?no-cache=1", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({
-        "form-name": form.getAttribute("name"),
-        ...this.state
-      })
-    })
+    axios.post(
+      "https://formcarry.com/s/ETtOHVN8A5-",
+      this.state,
+      { headers: { "Accept": "application/json" } }
+    )
       .then(() => navigate(form.getAttribute("action")))
-      .catch(error => alert(error));
-  };
-
+      .catch(error => alert(error))
+    }
+   
   render() {
     return (
       <Layout>
@@ -51,7 +43,7 @@ class Contact extends React.Component {
 
           <form
             name="contact"
-            method="post"
+            method="POST"
             action="/contact/thanks/"
             data-netlify="true"
             data-netlify-honeypot="bot-field"

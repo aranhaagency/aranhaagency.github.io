@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Aranha Agency <aranhaagency@gmail.com>",
   "dependencies": {
+    "axios": "^0.19.0",
     "gatsby": "^2.12.0",
     "gatsby-image": "^2.2.3",
     "gatsby-plugin-amplitude-analytics": "^1.5.0",
