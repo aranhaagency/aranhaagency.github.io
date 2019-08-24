@@ -12,6 +12,7 @@
     "gatsby-plugin-antd": "^2.0.2",
     "gatsby-plugin-baidu-analytics": "^2.0.0",
     "gatsby-plugin-cookiehub": "^1.0.0",
+    "gatsby-plugin-facebook-pixel": "^1.0.3",
     "gatsby-plugin-favicon": "^3.1.6",
     "gatsby-plugin-google-analytics": "^2.1.1",
     "gatsby-plugin-i18n": "^1.0.1",

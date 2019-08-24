@@ -15,6 +15,12 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-facebook-pixel`,
+      options: {
+        pixelId: '612142959299987',
+      },
+    },
+    {
       resolve: `gatsby-plugin-cookiehub`,
       options: {
         cookihubId: `643d82f5`,
